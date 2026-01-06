@@ -1,3 +1,7 @@
+# Import compatibility shims early to avoid import-time errors from third-party packages
+# (e.g., `langchain` expecting symbols that may be missing in `langchain_community`).
+import backend.compat
+
 from fastapi import FastAPI, UploadFile, File, Depends
 from backend.config import settings
 from backend.database import engine, Base
