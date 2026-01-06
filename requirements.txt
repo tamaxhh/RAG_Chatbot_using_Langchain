@@ -1,0 +1,13 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+streamlit==1.29.0
+sqlalchemy==2.0.23
+pydantic==2.5.2
+langchain==0.0.350
+langchain-openai==0.0.2
+chromadb==0.4.19
+pypdf==4.0.1  # For PDF text extraction
+python-dotenv==1.0.0
+reportlab==4.0.7  # For PDF export
+pytest==7.4.3
+python-multipart==0.0.6  # For file uploads in FastAPI
